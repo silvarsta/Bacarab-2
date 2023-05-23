@@ -1,0 +1,17 @@
+body {
+    height: 100vh !important;
+}
+
+
+
+
+.carousel-inner {
+    height: 65vh !important;
+    width: auto !important;
+}
+
+.card-body {
+    height: 30vh !important;
+    width: auto !important;
+}
+
