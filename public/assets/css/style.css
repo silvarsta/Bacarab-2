@@ -122,7 +122,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-    background:#bbdbff;
+    background: #bbdbff;
 }
 
 #header .logo {
@@ -622,7 +622,46 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    padding: 20px;
 }
+
+@media (max-width: 1500px) {
+    .section-parall {
+        flex-direction: column;
+        min-height: 75vh;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .section-parall {
+        flex-direction: column;
+        min-height: 35vh;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1500px) {
+    #btn-parall {
+        flex-direction: column;
+        min-height: 75vh;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    #btn-parall {
+        flex-direction: column;
+        min-height: 35vh;
+        padding: 10px;
+        font-size: 12px;
+        min-width: 130px;
+
+    }
+}
+
 
 .section-parall #text-parall {
     position: absolute;
@@ -729,7 +768,6 @@ section {
     #awan4,
     #buku,
     #astro,
-    #btn-parall,
     #text-parall {
         display: none;
     }
@@ -1221,7 +1259,7 @@ section {
     background: #eff2f8;
 }
 
-.content .member .social  i {
+.content .member .social i {
     color: #37517e;
     font-size: 16px;
     margin: 0 2px;
@@ -1763,6 +1801,7 @@ section {
     position: relative;
     color: #37517e;
 }
+
 .title-about h2::before {
     content: '';
     position: absolute;
@@ -1810,12 +1849,12 @@ section {
     margin: 0 auto 2em auto;
 }
 
-.img-about img{
+.img-about img {
     width: 100%;
     border-radius: 50%;
 }
 
-.isi h4{
+.isi h4 {
     font-weight: 500;
 }
 
@@ -1826,7 +1865,7 @@ section {
 
 }
 
-.about .isi:hover{
+.about .isi:hover {
     background: #cce1fc;
     color: #37517e;
 }

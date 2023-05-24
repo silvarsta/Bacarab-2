@@ -6,7 +6,7 @@
     <section id="content" class="content section-bg">
         <div class="container" data-aos="fade-up">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
                         <div class="pic"><img src="assets/img/apaaja5.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
@@ -19,7 +19,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
                         <div class="pic"><img src="assets/img/apaaja4.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">

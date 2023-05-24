@@ -46,8 +46,7 @@
                     <li><a class="nav-link scrollto" href="#video"><b> Video </b></a></li>
                     <li><a class="nav-link scrollto" href="#contact"><b> Contact </a></li>
                     <li>
-                        <a href="/profile" class="nav-link scrollto"
-                            style="display: flex; align-items: center;">
+                        <a href="/profile" class="nav-link scrollto" style="display: flex; align-items: center;">
                             <div class="profile-img">
                                 <img src="{{ asset('assets/img/icon/user-icon.png') }}" alt="User-prifile">
                             </div>
@@ -62,13 +61,13 @@
 
                 </div>
 
-                <i class="bi bi-list mobile-nav-toggle"></i>
+                <i class="fa fa-list mobile-nav-toggle"></i>
 
             </nav><!-- .navbar -->
         </div>
     </header>
-    <!-- corousel -->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="height: 100vh;">
+    <!-- Carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -79,19 +78,16 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="assets/img/carousel/1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
+                <img src="assets/img/carousel/1.png" class=" w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block"></div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="assets/img/carousel/2.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
+                <img src="assets/img/carousel/2.png" class=" w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block"></div>
             </div>
             <div class="carousel-item">
-                <img src="assets/img/carousel/3.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
+                <img src="assets/img/carousel/3.png" class=" w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block"></div>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -103,7 +99,10 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <!-- corousel end -->
+    <!-- Carousel End -->
+
+
+
 
     <main id="main">
 
@@ -163,6 +162,10 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

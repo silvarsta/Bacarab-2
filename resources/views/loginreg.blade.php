@@ -25,7 +25,7 @@
                         <input type="password" name="password" placeholder="Password" required />
                     </div>
                     <input type="submit" value="Login" class="btn solid" />
-                    <a href="/forgot-password">Forgot Password?</a>
+                    <a href="/forgot-password" style="margin-bottom: 30px;">Forgot Password?</a>
                 </form>
                 <form action="{{ route('create') }}" method="post" class="sign-up-form">
                     {{ csrf_field() }}
@@ -75,7 +75,7 @@
                     <p>
                         Login dan nikmati fitur hebat di website kita! Masuk ke akunmu sekarang dan rasakan keseruannya!
                     </p>
-                    <button class="btn transparent" id="sign-in-btn">
+                    <button class="btn transparent" style="margin-bottom: 40px;" id="sign-in-btn">
                         Sign in
                     </button>
                 </div>
