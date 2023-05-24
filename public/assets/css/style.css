@@ -773,6 +773,16 @@ section {
     }
 }
 
+@media only screen and (max-width: 430px) {
+    #btn-parall {
+        /* display: none; */
+        min-width: 110px;
+        font-size: 12px;
+        letter-spacing: 0.8px;
+        font-weight: 700;
+    }
+}
+
 #bgparall {
 
     display: block;
