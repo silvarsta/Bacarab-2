@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ asset('vendor/css/core.css') }}" class="template-customizer-core-css" />
     <link rel="stylesheet" href="{{ asset('vendor/css/theme-default.css') }}" class="template-customizer-theme-css" />
     <link rel="stylesheet" href="{{ asset('assets/css/demo.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/adminstyle.css') }}" />
 
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 
@@ -63,15 +64,14 @@
                         <span class="menu-header-text">Menus</span>
                     </li>
 
-                    <li class="menu-item {{ 'admin/kamus' == request()->path() ? 'active' : '' }}">
+                    <li class="menu-item {{ request()->path() == 'admin/kamus' || request()->path() == 'kamus/create' ? 'active' : '' }}">
                         <a href="{{ route('admin.dictionary') }}" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons bx bx-collection"></i>
                             <div data-i18n="Basic">Dictionary</div>
                         </a>
                     </li>
 
-                    <li class="menu-item {{ 'admin/printable' == request()->path() ? 'active' : '' }}">
-                        <a href="{{ route('admin.printable') }}" class="menu-link menu-toggle">
+                    <li class="menu-item {{ request()->path() == 'admin/printable' || request()->path() == 'printable/create' ? 'active' : '' }}">                        <a href="{{ route('admin.printable') }}" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons bx bx-collection"></i>
                             <div data-i18n="Basic">Printable</div>
                         </a>
@@ -84,7 +84,6 @@
                         </a>
                     </li>
                 </ul>
-
 
             </aside>
             <!-- / Menu -->

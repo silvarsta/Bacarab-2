@@ -37,8 +37,8 @@
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center">
-
-            <h1 class="bacarab me-auto"><a href="/main">BACARAB</a></h1>
+            <h1 class="bacarab me-auto text-info"><a href="/main"
+                    style="text-decoration: none; color: #47b2e4;">BACARAB</a></h1>
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="/main"><b>Home</b></a></li>
