@@ -83,19 +83,14 @@
 
                 window.addEventListener('scroll', () => {
                     let value = window.scrollY;
-
                     astro.style.top = value * -0.8 + 'px';
                     astro.style.left = value * -1.5 + 'px';
                     awan1.style.left = value * 1.5 + 'px';
                     awan1.style.top = value * 0.8 + 'px';
-
                     awan2.style.left = value * 1.5 + 'px';
-
                     awan3.style.left = value * -1.5 + 'px';
-
                     awan4.style.left = value * -1.5 + 'px';
                     awan4.style.top = value * 0.8 + 'px';
-
                     bg.style.marginTop = value * 1 + 'px';
                 });
             </script>
@@ -143,13 +138,10 @@
                                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
                                             Bahasa Arab memiliki sistem tata bahasa yang kompleks dan kaya, sehingga
-                                            dapat membantu dalam
-                                            pengembangan
+                                            dapat membantu dalam pengembangan
                                             keterampilan berpikir logis dan analitis. Anak-anak juga akan dilatih dalam
-                                            membaca dan menulis
-                                            huruf Arab,
-                                            yang dapat meningkatkan kemampuan mereka dalam mengekspresikan diri secara
-                                            tertulis.
+                                            membaca dan menulis huruf Arab,
+                                            yang dapat meningkatkan kemampuan mereka dalam mengekspresikan diri secara tertulis.
                                         </p>
                                     </div>
                                 </li>
@@ -157,9 +149,9 @@
                                 <li>
                                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
                                         class="collapsed"><span>03</span>
-                                        Kebutuhan Bahasa Arab dalam Era Globalisasi <i
-                                            class="bx bx-chevron-down icon-show"></i><i
-                                            class="bx bx-chevron-up icon-close"></i></a>
+                                        Kebutuhan Bahasa Arab dalam Era Globalisasi
+                                        <i class="bx bx-chevron-down icon-show"></i>
+                                        <i class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
                                             Kebutuhan akan orang yang mampu berbahasa Arab semakin meningkat, sehingga
@@ -168,16 +160,12 @@
                                         </p>
                                     </div>
                                 </li>
-
                             </ul>
                         </div>
-
                     </div>
 
-                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
-                        style='background-image: url("assets/img/kids.png");' data-aos="zoom-in"
-                        data-aos-delay="150">
-                        &nbsp;</div>
+                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/kids.png");' data-aos="zoom-in"
+                        data-aos-delay="150"> &nbsp;</div>
                 </div>
 
             </div>
@@ -240,12 +228,9 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </section><!-- End Content Section -->
-
         </section><!-- End Why Us Section -->
 
         <!-- ======= GAME ======= -->
@@ -254,13 +239,9 @@
                 <div class="section-title">
                     <h2>GAMES</h2>
                     <p>"Selamat datang di section game, tempat di mana kamu dapat belajar bahasa Arab dengan cara yang
-                        menyenangkan dan
-                        interaktif. Nikmati berbagai permainan yang telah kami sediakan untuk membantumu menguasai
-                        kosakata, tata
-                        bahasa,
-                        dan konsep bahasa Arab dengan mudah. Selamat belajar dan selamat bermain!"</p>
+                        menyenangkan dan interaktif. Nikmati berbagai permainan yang telah kami sediakan untuk membantumu menguasai
+                        kosakata, tata bahasa, dan konsep bahasa Arab dengan mudah. Selamat belajar dan selamat bermain!"</p>
                 </div>
-
                 <div class="row">
                     <div class="isi col-xl-4 col-md-6 d-flex align-items-stretch mx-3" data-aos="zoom-in"
                         data-aos-delay="100">
@@ -269,12 +250,10 @@
                             <div class="portfolio-img"><img src="assets/img/game-1a.png" class="img-fluid"
                                     alt=""></div>
                             <h4 class="mt-5"><a href="#"
-                                    onclick="alert('Anda Harus Log In Terlebih Dahulu!')">Game Seru Belajar Mengenal
-                                    Huruf Hijaiyah</a>
+                                    onclick="alert('Anda Harus Log In Terlebih Dahulu!')">Game Seru Belajar Mengenal Huruf Hijaiyah</a>
                             </h4>
                             <p>merupakan game yang membantumu untuk mengenal dan menguasai huruf hijaiyah. yaitu alfabet
-                                yang
-                                digunakan dalam penulisan bahasa Arab dan juga menjadi dasar dalam membaca Al-Qur'an.
+                                yang digunakan dalam penulisan bahasa Arab dan juga menjadi dasar dalam membaca Al-Qur'an.
                             </p>
                         </div>
                     </div>
@@ -307,7 +286,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <!-- End games Section -->
@@ -320,19 +298,15 @@
                         data-aos="fade-up" data-aos-delay="200">
                         <h1>Yuk, belajar Bahasa Arab!!</h1>
                         <h2>Dengan game yang asik dan materi belajar yang seru, kamu akan mudah menguasai bahasa Arab.
-                            Daftar
-                            sekarang dan kita bisa belajar sambil bermain bersama!</h2>
+                            Daftar sekarang dan kita bisa belajar sambil bermain bersama!</h2>
                         <div class="d-flex justify-content-center justify-content-lg-start">
                             <a href="{{ route('loginreg') }}" class="btn-get-started scrollto">Get Started</a>
-                            <a href="https://youtu.be/yIz9Xns4Dmo&start=49" target="_blank"
-                                class="glightbox btn-watch-video">
+                            <a href="https://youtu.be/yIz9Xns4Dmo&start=49" target="_blank" class="glightbox btn-watch-video">
                                 <i class="bi bi-play-circle"></i><span>Watch Video</span></a>
                         </div>
                     </div>
-                    <div class="col-lg-6 order-1 order-lg-2 started-img aos-init aos-animate" data-aos="zoom-in"
-                        data-aos-delay="200">
-                        <img src="assets/img/hero-kids.png" class="img-fluid animated mx-5" alt=""
-                            >
+                    <div class="col-lg-6 order-1 order-lg-2 started-img aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="assets/img/hero-kids.png" class="img-fluid animated mx-5" alt="">
                     </div>
                 </div>
             </div>
@@ -343,24 +317,18 @@
         <!-- ======= Frequently Asked Questions Section ======= -->
         <section id="faq" class="faq section-bg">
             <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Pertanyaan yang sering ditanyakan</h2>
-                </div>
+                <div class="section-title"> <h2>Pertanyaan yang sering ditanyakan</h2> </div>
 
                 <div class="faq-list">
                     <ul>
                         <li data-aos="fade-up" data-aos-delay="100">
                             <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                                data-bs-target="#faq-list-1">Bagaimana cara memulai belajar bahasa Arab di website
-                                ini?<i class="bx bx-chevron-down icon-show"></i><i
+                                data-bs-target="#faq-list-1">Bagaimana cara memulai belajar bahasa Arab di website ini?<i class="bx bx-chevron-down icon-show"></i><i
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                                 <p>
-                                    Untuk memulai belajar bahasa Arab di website ini, pengunjung dapat mengakses materi
-                                    yang
-                                    tersedia langsung dari halaman utama website dengan mendaftar atau membuat akun
-                                    terlebih dahulu.
+                                    Untuk memulai belajar bahasa Arab di website ini, pengunjung dapat mengakses materi yang
+                                    tersedia langsung dari halaman utama website dengan mendaftar atau membuat akun terlebih dahulu.
                                 </p>
                             </div>
                         </li>
@@ -370,24 +338,19 @@
                                 pendukung atau pengelola website ini?<i class="bx bx-chevron-down icon-show"></i><i
                                     class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Bagaimana cara menghubungi tim pendukung atau pengelola website ini? Pengguna dapat
-                                    menghubungi tim
+                                <p> Bagaimana cara menghubungi tim pendukung atau pengelola website ini? Pengguna dapat menghubungi tim
                                     pendukung atau pengelola website ini melalui formulir kontak yang tersedia di
-                                    halaman website atau
-                                    melalui email yang tertera di website.
-                                </p>
+                                    halaman website atau melalui email yang tertera di website. </p>
                             </div>
                         </li>
                         <li data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-3" class="collapsed">Apa materi yang tersedia di website
-                                ini? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i>
+                                <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Apa materi yang tersedia di website ini?
+                                    <i class="bx bx-chevron-down icon-show"></i>
+                                    <i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                                 <p>Website ini menyediakan materi belajar bahasa Arab untuk anak-anak, seperti mengenal
-                                    huruf
-                                    dalam bahasa arab, mengenal angka dalam bahasa arab, kosakata,
+                                    huruf dalam bahasa arab, mengenal angka dalam bahasa arab, kosakata,
                                     dan pengucapan dasar.</p>
                             </div>
                         </li>
@@ -395,7 +358,6 @@
                 </div>
             </div>
         </section><!-- End Frequently Asked Questions Section -->
-
 
         {{-- Know Us --}}
         <div class="about section-bg" id="about">
@@ -406,32 +368,28 @@
                     </p>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="isi col col-md-6 mb-5 mx-2"style="width:280px;"data-aos="zoom-in" data-aos-delay="100">
-                        <div class="img-about mb-5">
-                            <img src="assets/img/Ridho.jpg" alt="">
-                        </div>
+                    <div class="isi col col-md-6 mb-5 mx-2"style="width:280px;"data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <div class="img-about mb-5"> <img src="assets/img/Ridho.jpg" alt=""> </div>
                         <h4>Muhammad Syifa Ridhoni</h4>
                         <p>Game Developer</p>
                     </div>
 
-                    <div class="isi col col-md-6 mb-5 mx-2"style="width:280px;"data-aos="zoom-in" data-aos-delay="100">
-                        <div class="img-about mb-5">
-                            <img src="assets/img/Silva.jpg" alt="">
-                        </div>
+                    <div class="isi col col-md-6 mb-5 mx-2"style="width:280px;"data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <div class="img-about mb-5"> <img src="assets/img/Silva.jpg" alt=""> </div>
                         <h4>Silvana Ovarista</h4>
                         <p>Front-End Developer</p>
                     </div>
-                    <div class="isi col col-md-6 mb-5 mx-2"style="width:280px;"data-aos="zoom-in" data-aos-delay="100">
-                        <div class="img-about mb-5">
-                            <img src="assets/img/Talitha.jpg" alt="">
-                        </div>
+                    <div class="isi col col-md-6 mb-5 mx-2"style="width:280px;"data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <div class="img-about mb-5"> <img src="assets/img/Talitha.jpg" alt=""> </div>
                         <h4>Talitha Najwa Afifah</h4>
                         <p>Script Writer</p>
                     </div>
-                    <div class="isi col col-md-6 mb-5 mx-2"style="width:280px;"data-aos="zoom-in" data-aos-delay="100">
-                        <div class="img-about mb-5">
-                            <img src="assets/img/Victor.jpg" alt="">
-                        </div>
+                    <div class="isi col col-md-6 mb-5 mx-2"style="width:280px;"data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <div class="img-about mb-5"> <img src="assets/img/Victor.jpg" alt=""> </div>
                         <h4>Victory Kuriakos</h4>
                         <p>Back-End Developer</p>
                     </div>
@@ -448,7 +406,6 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-
                     <div class="col-lg-6 col-md-6 footer-contact">
                         <h3>BACARAB</h3>
                         <p>
@@ -471,18 +428,12 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="#about">About</a></li>
                         </ul>
                     </div>
-
-
                 </div>
             </div>
         </div>
 
         <div class="container footer-bottom clearfix">
-            <div class="copyright">
-                &copy; Copyright <strong><span>BACARAB</span></strong> | All Rights Reserved
-            </div>
-
-
+            <div class="copyright"> &copy; Copyright <strong><span>BACARAB</span></strong> | All Rights Reserved </div>
         </div>
     </footer>
     <!-- End Footer -->
@@ -505,7 +456,3 @@
 </body>
 
 </html>
-
-
-<!-- DITAMBAHI PRINTABLES PAGE  -->
-<!-- ISINYA GAMBAR2 UNTUK DI PRINT SEBAGAI BAHAN LATIHAN -->
